@@ -1,0 +1,16 @@
+{
+  "name": "khushil-app",
+  "version": "1.0.0",
+  "description": "Khushil \u2014 Private Real-Time Long-Distance Couple App for Sahil & Khushi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

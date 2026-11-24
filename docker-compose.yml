@@ -1,0 +1,15 @@
+services:
+  khushil:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DATA_DIR=/app/data
+      - APP_PASSCODE=${APP_PASSCODE:-1111}
+    volumes:
+      - khushil_data:/app/data
+
+volumes:
+  khushil_data:
