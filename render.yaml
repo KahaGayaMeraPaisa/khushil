@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: khushil-app
+    name: khushil-ultra
     runtime: node
     plan: free
     buildCommand: npm install
@@ -9,8 +9,10 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20.18.0
-      - key: APP_PASSCODE
+      - key: SAHIL_PASSCODE
         value: "1111"
+      - key: KHUSHI_PASSCODE
+        value: "2222"
       - key: SUPABASE_URL
         sync: false
       - key: SUPABASE_SERVICE_KEY

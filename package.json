@@ -1,7 +1,7 @@
 {
-  "name": "khushil-app",
-  "version": "1.0.0",
-  "description": "Khushil \u2014 Private Real-Time Long-Distance Couple App for Sahil & Khushi",
+  "name": "khushil-ultra",
+  "version": "2.0.0",
+  "description": "Khushil Ultra \u2014 High-Tech Real-Time Couple App for Sahil & Khushi",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

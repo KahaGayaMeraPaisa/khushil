@@ -7,9 +7,12 @@ services:
     environment:
       - PORT=3000
       - DATA_DIR=/app/data
-      - APP_PASSCODE=${APP_PASSCODE:-1111}
+      - SAHIL_PASSCODE=${SAHIL_PASSCODE:-1111}
+      - KHUSHI_PASSCODE=${KHUSHI_PASSCODE:-2222}
+      - SUPABASE_URL=${SUPABASE_URL:-}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY:-}
+      - SUPABASE_BUCKET=${SUPABASE_BUCKET:-khushil-data}
     volumes:
       - khushil_data:/app/data
-
 volumes:
   khushil_data:
